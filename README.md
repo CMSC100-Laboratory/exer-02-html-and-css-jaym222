@@ -4,6 +4,9 @@ Baez, Jay Joem M.
 2024-02269
 BS Computer Science 
 
+see my portfolio on:
+https://cmsc100-laboratory.github.io/exer-02-html-and-css-jaym222/
+
 
 
 
