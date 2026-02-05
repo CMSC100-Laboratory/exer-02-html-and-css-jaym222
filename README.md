@@ -1,7 +1,10 @@
 exer-02-html-and-css-cmsc100
 
 Baez, Jay Joem M.
+2024-02269
 BS Computer Science 
+
+
 
 
 steps to make github  page
