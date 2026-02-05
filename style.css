@@ -1,0 +1,147 @@
+
+/*refs: https://www.w3schools.com/html/default.asp
+https://www.w3schools.com/css/default.asp
+https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    z-index: 1000;
+}
+
+.navbar .logo {
+    text-decoration: none;
+    color: #4caf50;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 5%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #555;
+    margin-left: 25px;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4caf50; 
+}
+
+/* profile*/
+.profile {
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 10%;
+    min-height: 8px;
+}
+
+/* left side*/
+.nickname {
+    font-family: 'Playfair Display', serif;
+    font-size: 130px;
+    margin: 0;
+    color: #2e7d32; 
+}
+
+.last-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    margin: 0;
+    color: #81c784;
+}
+
+.line {
+    width: 60px;
+    height: 4px;
+    background-color: #4caf50;
+    margin-top: 10px;
+}
+
+/*my photo*/
+.photo img {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 30px;
+    border: 8px solid #f1f8e9; 
+}
+
+/*each section*/
+.section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.description {
+    font-size: 32px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+/*for containers and cards*/
+.skills-container, .project-container{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-card, .project-card {
+    background-color: #f1f8e9; 
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #e1eedd;
+    min-width: 150px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.project-card {
+    max-width: 280px;
+}
+
+/* hover for cARDS*/
+.skill-card:hover, .project-card:hover {
+    transform: translateY(-5px);
+
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+/*contact styless*/
+.contact-card strong {
+    display: block;
+    color: #2e7d32;
+}
+
+.contact-card a {
+    text-decoration: none;
+    color: black;
+}
